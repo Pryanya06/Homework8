@@ -62,6 +62,17 @@ public class Main {
     }
     public static void task4() {
         System.out.println("Задача 4");
+        int[] weights = new int[3];
+        weights[0] = 1;
+        weights[1] = 2;
+        weights[2] = 3;
+        for (int i = 0; i < weights.length; i+=1) {
+            if (i == weights.length -1) {
+                System.out.println(weights[i]);
+                break;
+            }
+            System.out.print(weights[i] + ", ");
+        }
     }
 
     }
